@@ -3,11 +3,7 @@ Library that allows you to read electronic documents such as invoices, tickets a
 
 # Installation
 
-<<<<<<< HEAD
     Install-Package Sife.MapXmlUBL -Version 1.1.0
-=======
-    Install-Package Sife.MapXmlUBL -Version 1.0.2
->>>>>>> 0cdc9f64bad4811f579413dfa36317213f950433
 
 # Example of use
 
