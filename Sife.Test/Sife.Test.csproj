@@ -36,6 +36,9 @@
     <Reference Include="DotNetZip, Version=1.13.3.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
       <HintPath>..\packages\DotNetZip.1.13.3\lib\net40\DotNetZip.dll</HintPath>
     </Reference>
+    <Reference Include="Sife.MapXmlUBL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sife.MapXmlUBL.1.1.0\lib\net47\Sife.MapXmlUBL.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
@@ -59,12 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="xml\20553510661-01-F001-1.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Sife.MapXmlUBL\Sife.MapXmlUBL.csproj">
-      <Project>{99d65a26-04cf-4ff3-90e9-5a95cfb21598}</Project>
-      <Name>Sife.MapXmlUBL</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
