@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <ds:Signature Id="SignSUNAT">
+          <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <ds:Reference URI="">
+              <ds:Transforms>
+                <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+              </ds:Transforms>
+              <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+              <ds:DigestValue>7s5FIPek2Zu6EpjvIQHdGP1+pmM=</ds:DigestValue>
+            </ds:Reference>
+          </ds:SignedInfo>
+          <ds:SignatureValue>Tdol1J59ZZ+TaxWuNWOZ1EfOzpkdoq8CLdUBwvpVW1xjuFMbhheKiLGhpOFms3INbcINsIyDVGN7w35KkkpwQSBjJgIUuSKVqvS5KlhK4aroJiY4JVLI32Li7E/VWejq+yRKlW55b8bSJeoETm8rcc/w1kSzek+lY02fE2/0fWgMNABaUd1Vk5JhA7R0SDo9/NuP8Vo+osdpFUYc6Y/cZpamtPhYRZS9yixJxlnTyi57BM+O0k68OmrrUkS9QI//0Fwqt0NrysTVGg/jUm0QYn4BlkzeHFxOgTqCI5BCAehi1AxEjrQmx5CjH0OSlEWkJlaw7C5Mw6Ir95dFSlGAiQ==</ds:SignatureValue>
+          <ds:KeyInfo>
+            <ds:X509Data>
+              <ds:X509Certificate>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</ds:X509Certificate>
+            </ds:X509Data>
+          </ds:KeyInfo>
+        </ds:Signature>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>F105-00000225</cbc:ID>
+  <cbc:IssueDate>2019-02-15</cbc:IssueDate>
+  <cbc:IssueTime>00:00:00</cbc:IssueTime>
+  <cbc:DueDate>2019-02-18</cbc:DueDate>
+
+  <cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listID="0200" listName="Tipo de Documento" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion">01</cbc:InvoiceTypeCode>
+
+  <cbc:Note languageLocaleID="1000">SON:CIENTO CINCUENTA MIL CON 00/100</cbc:Note>
+  <cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">USD</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>20109195848</cbc:ID>
+    <cbc:Note>Elaborado por Sistema de Emision Electronica Facturador SUNAT (SEE-SFS) 1.2</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20109195848</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Procesadora del sur S.A.</cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>SIGN</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20109195848</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Procesadora del sur S.A.</cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>prodelsur</cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+          <cbc:CitySubdivisionName>PARCELACION FUNDO ESTRELL</cbc:CitySubdivisionName>
+          <cbc:CityName>LIMA</cbc:CityName>
+          <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+          <cbc:CountrySubentityCode>150103</cbc:CountrySubentityCode>
+          <cbc:District>ATE</cbc:District>
+          <cac:AddressLine>
+            <cbc:Line>AV. PEDRO RUIZ GALLO SECCIO 1 MZA. SN LOTE. 124C</cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="0" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">-</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>VOLCAFE LTD</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+
+
+
+
+  <!-- Inicio Tributos cabecera-->
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="USD">150000.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="UN/ECE 5153" schemeName="Codigo de tributos">9995</cbc:ID>
+          <cbc:Name>EXP</cbc:Name>
+          <cbc:TaxTypeCode>FRE</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <!-- Fin Tributos  Cabecera-->
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="USD">150000.00</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="USD">150000.00</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="USD">0.00</cbc:AllowanceTotalAmount>
+    <cbc:ChargeTotalAmount currencyID="USD">0.00</cbc:ChargeTotalAmount>
+    <cbc:PrepaidAmount currencyID="USD">0.00</cbc:PrepaidAmount>
+    <cbc:PayableAmount currencyID="USD">150000.00</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="USD">150000.00</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="USD">150000.00</cbc:PriceAmount>
+        <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+
+
+    <!-- Inicio Tributos -->
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="USD">0.00</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">40</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="UN/ECE 5153" schemeName="Codigo de tributos">9995</cbc:ID>
+            <cbc:Name>EXP</cbc:Name>
+            <cbc:TaxTypeCode>FRE</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+
+    </cac:TaxTotal>
+    <!-- Fin Tributos -->
+    <cac:Item>
+      <cbc:Description>ANTICIPO POR VENTA DE CAFE 15</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>6733</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:CommodityClassification>
+        <cbc:ItemClassificationCode listAgencyName="GS1 US" listID="UNSPSC" listName="Item Classification">84101601</cbc:ItemClassificationCode>
+      </cac:CommodityClassification>
+
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="USD">150000.0000</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>
