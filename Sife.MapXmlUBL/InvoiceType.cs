@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Sife.MapXmlUBL
 {
@@ -15,6 +16,25 @@ namespace Sife.MapXmlUBL
     [System.Xml.Serialization.XmlRootAttribute("Invoice", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2", IsNullable = false)]
     public partial class InvoiceType
     {
+
+        [XmlAttribute(AttributeName = "xmlns")]
+        public string Xmlns { get; set; }
+        [XmlAttribute(AttributeName = "cac", Namespace = "http://www.w3.org/2000/xmlns/")]
+        public string Cac { get; set; }
+        [XmlAttribute(AttributeName = "cbc", Namespace = "http://www.w3.org/2000/xmlns/")]
+        public string Cbc { get; set; }
+        [XmlAttribute(AttributeName = "ccts", Namespace = "http://www.w3.org/2000/xmlns/")]
+        public string Ccts { get; set; }
+        [XmlAttribute(AttributeName = "ds", Namespace = "http://www.w3.org/2000/xmlns/")]
+        public string Ds { get; set; }
+        [XmlAttribute(AttributeName = "ext", Namespace = "http://www.w3.org/2000/xmlns/")]
+        public string Ext { get; set; }
+        [XmlAttribute(AttributeName = "qdt", Namespace = "http://www.w3.org/2000/xmlns/")]
+        public string Qdt { get; set; }
+        [XmlAttribute(AttributeName = "udt", Namespace = "http://www.w3.org/2000/xmlns/")]
+        public string Udt { get; set; }
+        [XmlAttribute(AttributeName = "xsi", Namespace = "http://www.w3.org/2000/xmlns/")]
+        public string Xsi { get; set; }
 
         private UBLExtensionType[] uBLExtensionsField;
 
