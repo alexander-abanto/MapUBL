@@ -1,9 +1,9 @@
-# MapXmlUBL
-Library that allows you to read electronic documents such as invoices, tickets and the answers given by SUNAT (CDR). Se requiere mínimo .NET 4
+# Dragon MapXmlUBL
+Library that allows you to read electronic documents such as invoices, tickets and the answers given by SUNAT (CDR). Se requiere mínimo .Net Core 3.1
 
 # Installation
 
-    Install-Package Sife.MapXmlUBL -Version 1.1.0
+    Install-Package Dragon.MapUBL -Version 1.1.0
 
 # Example of use
 
