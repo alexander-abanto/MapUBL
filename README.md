@@ -1,4 +1,4 @@
-# Sife.MapXmlUBL
+# MapXmlUBL
 Library that allows you to read electronic documents such as invoices, tickets and the answers given by SUNAT (CDR). Se requiere mínimo .NET 4
 
 # Installation
